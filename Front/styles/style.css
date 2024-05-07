@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #224b16;
+}
+.accueil{
+    background-color: #224b16;
+}
+ 
+header {
+    background-color: #58854a;
+    color: rgba(255, 228, 196, 0.753);
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+nav {
+    background-color: #58854a;
+    padding: 10px 0;
+    text-align: center;
+}
+ 
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgba(255, 228, 196, 0.753);
+}
+ 
+section {
+    margin: 20px;
+}
+ 
+h1, h2, h3 {
+    color: rgba(255, 228, 196, 0.753);
+}
+ 
+p {
+    line-height: 1.6;
+    color: rgba(255, 228, 196, 0.753);
+}
+
+.error{
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+ 
+form,.form {
+    width: 80%;
+    margin: 20px;
+    background-color: #a4f09d;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+ 
+label {
+    display: block;
+    margin-top: 20px;
+}
+ 
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    border: 10px;
+    color: black;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #35ba00;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.input {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #35ba00;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #35ba00;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    background-color: #58854a;
+    color: rgba(255, 228, 196, 0.753);
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
+header > img{
+    width: 70px;
+    height: 50px;
+    border-radius: 35%;
+}
+section img{
+    width: 150px;
+    display: block;
+}
+
