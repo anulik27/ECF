@@ -6,7 +6,7 @@
             <div>
                 <h2 class="text-center"> Decouvrez les animaux du parc</h2>
                 <img src="img/lion.jpg">
-            </div>
+            </div> 
 
             <div class="animaux-list">
 
